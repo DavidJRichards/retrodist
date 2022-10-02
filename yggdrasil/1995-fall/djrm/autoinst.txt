@@ -1,0 +1,3 @@
+yygdrasil/djrm.sh
+common/diskinit.sh
+
