@@ -2,6 +2,8 @@
 
 The 1995-fall distribution of Yggdrasil has an ATAPI cdrom driver, however before attempting to use it the boot process will try to find a sound blaster type of cdrom at various addresses, this takes a while and can be circumvented with the sbpcd=0 on the lilo command line. An alternative is to edit the default lilo command line in the floppy disk image.
 
+[Install pdf](https://archive.org/download/yggdrasil-plug-and-play-linux-fall-1995-cd/Yggdrasil%20Plug%20and%20Play%20Linux%20%5BFall%201995%5D%20install_.pdf)
+
 ![yggdrasil](1995fall-CDcover.jpg)
 
 ## mounting floppy disk image
@@ -43,7 +45,7 @@ To run the script the following needs to be typed at the root console:
 ```
 mount -t msdos /dev/hdb1 /mnt
 /mnt/autoinst.d/inststep/01.sh 
-'''
+```
 
 these lines appear as comments in /mnt/autoinst.d/inststep/01.sh the rest of the file invokes command to perform the disk initialisation.
 
