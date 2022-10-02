@@ -2,6 +2,8 @@
 
 The 1995-fall distribution of Yygdrasil has an ATAPI cdrom driver, however before attempting to use it the boot process will try to find a sound blaster type of cdrom at various addresses, this takes a while and can be circumvented with the sbpcd=0 on the lilo command line. An alternative is to edit the default lilo command line in the floppy disk image.
 
+![yygdrasil](1995fall-CDcover.jpg)
+
 ## mounting floppy disk image
 
 A loopback driver can be used to mount the floppy disk image for editing
