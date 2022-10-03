@@ -19,8 +19,9 @@ for CONFSTEP in $INSTMOUNT/autoinst.d/confstep/[0-9]*.sh; do
     . "$CONFSTEP"
 done
 
-echo "### Rebooting"
+echo "### Done ..."
+#echo "### Rebooting"
 # prevent script from running again
 rm -f $SCRIPTNAME
 sync
-reboot
+#reboot

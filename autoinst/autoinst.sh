@@ -26,6 +26,7 @@ for INSTSTEP in $INSTMOUNT/autoinst.d/inststep/[0-9]*.sh; do
     . "$INSTSTEP"
 done
 
-echo "### Rebooting..."
-sync
-reboot
+echo "### Thats all for now ###"
+#echo "### Rebooting..."
+#sync
+#reboot
